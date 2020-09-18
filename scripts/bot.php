@@ -14,7 +14,7 @@ require_once __DIR__ . '/../src/SourceBot.php';
 
 function isUserAllowed(int $id)
 {
-    return in_array($id, [222319186, 342864562, 513657002, 369782543, 560826361]);
+    return in_array($id, TELEGRAM_ALLOWED_USERS);
 }
 
 function processUser(SafeMySQL $db, int $id)

@@ -24,3 +24,5 @@ define('SOURCE_LOGIN', '');
 define('SOURCE_PASSWORD', '');
 
 define('VK_PEER_ID', 0);
+
+define('TELEGRAM_ALLOWED_USERS', []);
